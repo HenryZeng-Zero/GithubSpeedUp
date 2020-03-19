@@ -2,6 +2,8 @@ import requests
 import json
 import sys
 
+headers = {}
+headers['User-Agent'] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36"
 
 def OpenHosts():
     with open('hosts.json', 'r+') as f:
@@ -18,7 +20,7 @@ def WriteHosts(data):
 
 def DNS(domain):
     Server = 'http://119.29.29.29/d?dn='
-    back = requests.get(Server + domain)
+    back = requests.get(Server + domain,headers=headers)
     passage = ''
     IP = []
     for i in back.text:
