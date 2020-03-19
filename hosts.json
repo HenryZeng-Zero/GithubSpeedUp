@@ -1,1 +1,18 @@
-{"0": "github.global.ssl.fastly.net", "1": "github.com", "2": "assets-cdn.github.com", "3": "documentcloud.github.com", "4": "gist.github.com", "5": "help.github.com", "6": "nodeload.github.com", "7": "raw.github.com", "8": "status.github.com", "9": "training.github.com", "10": "www.github.com", "11": "avatars0.githubusercontent.com", "12": "avatars1.githubusercontent.com", "13": "github.githubassets.com", "14": "github-production-release-asset-2e65be.s3.amazonaws.com", "15": "api.github.com"}
+{
+    "0": "github.global.ssl.fastly.net",
+    "1": "github.com",
+    "2": "assets-cdn.github.com",
+    "3": "documentcloud.github.com",
+    "4": "gist.github.com",
+    "5": "help.github.com",
+    "6": "nodeload.github.com",
+    "7": "raw.github.com",
+    "8": "status.github.com",
+    "9": "training.github.com",
+    "10": "www.github.com",
+    "11": "avatars0.githubusercontent.com",
+    "12": "avatars1.githubusercontent.com",
+    "13": "github.githubassets.com",
+    "14": "github-production-release-asset-2e65be.s3.amazonaws.com",
+    "15": "api.github.com"
+}
