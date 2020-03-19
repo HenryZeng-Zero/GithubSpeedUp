@@ -1,6 +1,7 @@
 import requests
 import json
 import sys
+import re
 
 headers = {}
 headers['User-Agent'] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36"
@@ -18,9 +19,20 @@ def WriteHosts(data):
         print('error')
 
 
+def GetLocalIP():
+    try:
+        Server = 'https://www.ip.cn/'
+        IP = requests.get(Server, headers=headers)
+        front = len('<p>您现在的 IP：<code>')
+        end = len('</code></p><p>')*(-1)
+        return re.search('<p>您现在的 IP：<code>.*?</code></p><p>', IP.text)[0][front:end]
+    except:
+        return ''
+
 def DNS(domain):
     Server = 'http://119.29.29.29/d?dn='
-    back = requests.get(Server + domain,headers=headers)
+    Locals = '&ip=' + LocalIP
+    back = requests.get(Server + domain + Locals,headers=headers)
     passage = ''
     IP = []
     for i in back.text:
@@ -55,6 +67,9 @@ def helps():
 
 
 if __name__ == "__main__":
+    global LocalIP
+    LocalIP = GetLocalIP()
+
     try:
         data = OpenHosts()
     except:
