@@ -11,6 +11,8 @@ Improve local access by requesting locally optimal DNS resolution data from the 
 Execute using Python3
 
 ```
+git clone https://github.com/zzh-blog/GithubSpeedUp.git
+cd GithubSpeedUp
 python GSU.py [command]
 ```
 See the help document

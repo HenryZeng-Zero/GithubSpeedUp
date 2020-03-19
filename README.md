@@ -11,6 +11,8 @@ Lang: [ZH-CN](README.md) ; [EN](README_en.md)
 请使用Python3执行
 
 ```
+git clone https://github.com/zzh-blog/GithubSpeedUp.git
+cd GithubSpeedUp
 python GSU.py [command]
 ```
 查看帮助
