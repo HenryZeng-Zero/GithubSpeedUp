@@ -29,6 +29,7 @@ Help文档
      ls           (输出域名列表)
      rm [id]      (删除域名)
       └┈┈ rm -y   (跳过确认部分)
-     do           (输出hosts)
+     do [id]      (输出hosts,默认是选择全部id)
      save [file]  (保存hosts)
+     IPs [id]     (输出所有域名的ip,默认是选择全部id)
 ```

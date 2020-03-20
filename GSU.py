@@ -45,13 +45,19 @@ def DNS(domain):
     return IP
 
 
-def WebDNS(data):
-    domain_ip = []
-    for i in data:
-        domans = data[i]
-        domain_ip.append(DNS(domans)[0] + ' ' + domans)
-    return domain_ip
-
+def WebDNS(data,mode):
+    if mode == 'hosts':
+        domain_ip = []
+        for i in data:
+            domans = data[i]
+            domain_ip.append(DNS(domans)[0] + ' ' + domans)
+        return domain_ip
+    elif mode == 'IPs':
+        domain_ip = []
+        for i in data:
+            domans = data[i]
+            domain_ip.append(domans + ' |' + '|'.join(DNS(domans))+'|')
+        return domain_ip
 
 def helps():
     print('python GSU.py [command]')
@@ -62,8 +68,9 @@ def helps():
     print('     ls           (print the list of domain )')
     print('     rm [id]      (del the domain from the list)')
     print('      └┈┈ rm -y   (pass the confirm part)')
-    print('     do           (print the hosts)')
+    print('     do [id]      (print the hosts,The default select all id)')
     print('     save [file]  (save hosts to a file)')
+    print('     IPs [id]     (print the all the domain\'s ip,The default select all id)')
 
 
 if __name__ == "__main__":
@@ -94,7 +101,12 @@ if __name__ == "__main__":
                 lens = len(data)
                 # len获取元素数量，正好比字典下标多1
                 if str(confirm) == 'y':
-                    data.update({lens: argv[argvID]})
+                    for i in data:
+                        if data[i] == argv[argvID]:
+                            print('This domain is recorded')
+                            break
+                    else:
+                        data.update({lens: argv[argvID]})
                 WriteHosts(json.dumps(data))
             except:
                 helps()
@@ -123,13 +135,16 @@ if __name__ == "__main__":
         # rm
         elif argv[1] == 'do':
             print('=============================================')
-            for i in WebDNS(data):
-                print(i)
+            try:
+                domain_do = data[argv[2]]
+                print(DNS(domain_do)[0] + ' ' + domain_do)
+            except:
+                for i in WebDNS(data,'hosts'):
+                    print(i)
             print('=============================================')
         elif argv[1] == 'save':
             Text = ''
-            argv[1]
-            for i in WebDNS(data):
+            for i in WebDNS(data,'hosts'):
                 Text += i +'\n'
             try:
                 with open(argv[2],'w+') as f:
@@ -138,6 +153,17 @@ if __name__ == "__main__":
             except:
                 print('error')
         # do
+        elif argv[1] == 'IPs':
+            print('=============================================')
+            try:
+                domain_IPs = data[argv[2]]
+                print(domain_IPs + ' |' + '|'.join(DNS(domain_IPs))+'|')
+            except:
+                for i in WebDNS(data,'IPs'):
+                    print(i)
+            print('=============================================')
+        # IPs
+
         else:
             helps()
             print('Please make sure you enter the true command line')

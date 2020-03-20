@@ -29,6 +29,7 @@ Help document
      ls           (print the list of domain )
      rm [id]      (del the domain from the list)
       └┈┈ rm -y   (pass the confirm part)
-     do           (print the hosts)
+     do [id]      (print the hosts,The default select all id)
      save [file]  (save hosts to a file)
+     IPs [id]     (print the all the domain's ip,The default select all id)
 ```
