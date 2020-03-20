@@ -1,6 +1,5 @@
-Lang: [ZH-CN](README.md) ; [EN](README_en.md)
-# 起因
-在中国，因为网络条件的一些问题，同时因为Github没有在中国的CDN服务器，所以访问Github的速度相当的慢，不论上传下载还是访问。
+<center style='font-size:30px'>加速Github访问</center>
+<center style='font-size:15px'>走出心理阴影(皮)</center>
 
 # 原理
 

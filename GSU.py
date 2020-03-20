@@ -1,4 +1,5 @@
 import requests
+import locale
 import json
 import sys
 import re
@@ -60,17 +61,31 @@ def WebDNS(data,mode):
         return domain_ip
 
 def helps():
-    print('python GSU.py [command]')
-    print('[command]: ')
-    print('     help         (help you find help document)')
-    print('     add [domain] (add domain for check)')
-    print('      └┈┈ add -y  (pass the confirm part)')
-    print('     ls           (print the list of domain )')
-    print('     rm [id]      (del the domain from the list)')
-    print('      └┈┈ rm -y   (pass the confirm part)')
-    print('     do [id]      (print the hosts,The default select all id)')
-    print('     save [file]  (save hosts to a file)')
-    print('     IPs [id]     (print the all the domain\'s ip,The default select all id)')
+    language, encoding = locale.getdefaultlocale()
+    if language == 'zh_CN':
+        print('python GSU.py [command]')
+        print('[command]: ')
+        print('     help         (帮助你查找帮助文档)')
+        print('     add [domain] (添加待检测域名)')
+        print('      └┈┈ add -y  (跳过确认部分)')
+        print('     ls           (输出域名列表)')
+        print('     rm [id]      (删除域名)')
+        print('      └┈┈ rm -y   (跳过确认部分)')
+        print('     do [id]      (输出hosts,默认是选择全部id)')
+        print('     save [file]  (保存hosts)')
+        print('     IPs [id]     (输出所有域名的ip,默认是选择全部id)')
+    else:
+        print('python GSU.py [command]')
+        print('[command]: ')
+        print('     help         (help you find help document)')
+        print('     add [domain] (add domain for check)')
+        print('      └┈┈ add -y  (pass the confirm part)')
+        print('     ls           (print the list of domain )')
+        print('     rm [id]      (del the domain from the list)')
+        print('      └┈┈ rm -y   (pass the confirm part)')
+        print('     do [id]      (print the hosts,The default select all id)')
+        print('     save [file]  (save hosts to a file)')
+        print('     IPs [id]     (print the all the domain\'s ip,The default select all id)')
 
 
 if __name__ == "__main__":
