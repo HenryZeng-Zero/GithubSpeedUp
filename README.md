@@ -2,11 +2,11 @@
 <div align=center><p style='font-size:15px'>走出心理阴影(皮)</p></div>
 
 
-# 原理
+## 原理
 
 通过向提供Web请求的DNS服务器请求针对本地最优的DNS解析数据,把输出数据存入hosts文件，提高本地访问速度
 
-# 使用
+## 使用
 
 请使用Python3执行
 
