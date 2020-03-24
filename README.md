@@ -33,3 +33,7 @@ Help文档
      save [file]  (保存hosts)
      IPs [id]     (输出所有域名的ip,默认是选择全部id)
 ```
+推荐：
+>[Windows下batch脚本(无需clone本仓库)](https://www.bajins.com/files/%E8%AE%BE%E7%BD%AEGitHub%E7%9A%84Hosts.bat)
+
+>脚本由[woytu](https://github.com/woytu)提供
