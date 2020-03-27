@@ -106,3 +106,43 @@ V2:
 185.199.108.153 github.io
 151.101.40.133 avatars7.githubusercontent.com
 ```
+
+v3:
+
+```
+66.220.152.17 github.global.ssl.fastly.net
+192.30.255.113 github.com
+185.199.110.153 assets-cdn.github.com
+185.199.108.153 documentcloud.github.com
+243.185.187.39 gist.github.com
+185.199.110.154 help.github.com
+13.250.162.133 nodeload.github.com
+151.101.24.133 raw.github.com
+52.205.36.92 status.github.com
+140.82.113.18 training.github.com
+192.30.255.112 www.github.com
+151.101.196.133 avatars0.githubusercontent.com
+151.101.196.133 avatars1.githubusercontent.com
+185.199.109.154 github.githubassets.com
+52.216.144.131 github-production-release-asset-2e65be.s3.amazonaws.com
+13.250.94.254 api.github.com
+151.101.24.133 user-images.githubusercontent.com
+151.101.40.133 raw.githubusercontent.com
+151.101.24.133 gist.githubusercontent.com
+151.101.40.133 cloud.githubusercontent.com
+151.101.40.133 camo.githubusercontent.com
+151.101.196.133 avatars2.githubusercontent.com
+151.101.24.133 avatars3.githubusercontent.com
+151.101.196.133 avatars4.githubusercontent.com
+151.101.196.133 avatars5.githubusercontent.com
+151.101.24.133 avatars6.githubusercontent.com
+151.101.40.133 avatars8.githubusercontent.com
+185.199.110.153 github.io
+151.101.40.133 avatars7.githubusercontent.com
+```
+
+关键而又时常抽风的地址：
+```
+github.githubassets.com [负责Github网站的样式和图片资源数据，抽风会导致网页错位]
+
+```
