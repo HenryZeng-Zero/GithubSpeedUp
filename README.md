@@ -34,40 +34,14 @@ Help文档
      IPs [id]     (输出所有域名的ip,默认是选择全部id)
 ```
 
-地址列表[可能存在多组地址]
-```
-github.global.ssl.fastly.net |67.228.235.91|
-github.com |52.74.223.119|
-assets-cdn.github.com |185.199.109.153|185.199.110.153|185.199.108.153|185.199.111.153|
-documentcloud.github.com |185.199.109.153|185.199.111.153|185.199.110.153|185.199.108.153|
-gist.github.com |203.98.7.65|
-help.github.com |185.199.110.154|185.199.109.154|185.199.108.154|185.199.111.154|
-nodeload.github.com |13.229.189.0|
-raw.github.com |151.101.196.133|
-status.github.com |54.85.97.34|52.205.36.92|52.87.114.63|
-training.github.com |140.82.114.18|
-www.github.com |52.74.223.119|
-avatars0.githubusercontent.com |151.101.40.133|
-avatars1.githubusercontent.com |151.101.40.133|
-github.githubassets.com |185.199.111.154|185.199.109.154|185.199.108.154|185.199.110.154|
-github-production-release-asset-2e65be.s3.amazonaws.com |52.216.88.11|
-api.github.com |13.250.94.254|
-user-images.githubusercontent.com |151.101.196.133|
-raw.githubusercontent.com |151.101.40.133|
-gist.githubusercontent.com |151.101.24.133|
-cloud.githubusercontent.com |151.101.40.133|
-camo.githubusercontent.com |151.101.196.133|
-avatars2.githubusercontent.com |151.101.40.133|
-avatars3.githubusercontent.com |151.101.24.133|
-avatars4.githubusercontent.com |151.101.40.133|
-avatars5.githubusercontent.com |151.101.196.133|
-avatars6.githubusercontent.com |151.101.40.133|
-avatars8.githubusercontent.com |151.101.24.133|
-github.io |185.199.110.153|185.199.109.153|185.199.111.153|185.199.108.153|
-avatars7.githubusercontent.com |151.101.24.133|
-```
+地址列表
+1. 可能存在多组地址
+2. 不同地区的不同时间，获取的高速地址可能不同]
 
-南京地区获取的hosts
+
+南京地区获取的hosts:
+
+V1:
 ```
 199.59.148.209 github.global.ssl.fastly.net
 52.74.223.119 github.com
@@ -95,6 +69,39 @@ avatars7.githubusercontent.com |151.101.24.133|
 151.101.40.133 avatars5.githubusercontent.com
 151.101.196.133 avatars6.githubusercontent.com
 151.101.40.133 avatars8.githubusercontent.com
+185.199.108.153 github.io
+151.101.40.133 avatars7.githubusercontent.com
+```
+
+V2:
+```
+31.13.81.1 github.global.ssl.fastly.net
+192.30.255.112 github.com
+185.199.110.153 assets-cdn.github.com   
+185.199.109.153 documentcloud.github.com
+8.7.198.45 gist.github.com
+185.199.111.154 help.github.com
+13.229.189.0 nodeload.github.com
+151.101.196.133 raw.github.com
+52.205.36.92 status.github.com
+140.82.113.18 training.github.com
+192.30.255.112 www.github.com
+151.101.196.133 avatars0.githubusercontent.com
+151.101.196.133 avatars1.githubusercontent.com
+185.199.109.154 github.githubassets.com
+52.216.109.203 github-production-release-asset-2e65be.s3.amazonaws.com
+13.250.168.23 api.github.com
+151.101.196.133 user-images.githubusercontent.com
+151.101.40.133 raw.githubusercontent.com
+151.101.24.133 gist.githubusercontent.com
+151.101.40.133 cloud.githubusercontent.com
+151.101.40.133 camo.githubusercontent.com
+151.101.24.133 avatars2.githubusercontent.com
+151.101.40.133 avatars3.githubusercontent.com
+151.101.40.133 avatars4.githubusercontent.com
+151.101.40.133 avatars5.githubusercontent.com
+151.101.40.133 avatars6.githubusercontent.com
+151.101.196.133 avatars8.githubusercontent.com
 185.199.108.153 github.io
 151.101.40.133 avatars7.githubusercontent.com
 ```
