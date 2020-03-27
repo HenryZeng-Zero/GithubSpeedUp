@@ -73,7 +73,6 @@ V1:
 185.199.108.153 github.io
 151.101.40.133 avatars7.githubusercontent.com
 ```
-
 V2:
 ```
 31.13.81.1 github.global.ssl.fastly.net
@@ -106,9 +105,7 @@ V2:
 185.199.108.153 github.io
 151.101.40.133 avatars7.githubusercontent.com
 ```
-
 v3:
-
 ```
 66.220.152.17 github.global.ssl.fastly.net
 192.30.255.113 github.com
