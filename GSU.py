@@ -92,8 +92,6 @@ def helps():
 
 if __name__ == "__main__":
     global LocalIP
-    LocalIP = GetLocalIP()
-
     try:
         data = OpenHosts()
     except:
@@ -151,6 +149,7 @@ if __name__ == "__main__":
                 WriteHosts(json.dumps(data))
         # rm
         elif argv[1] == 'do':
+            LocalIP = GetLocalIP()
             print('=============================================')
             try:
                 domain_do = data[argv[2]]
@@ -160,6 +159,7 @@ if __name__ == "__main__":
                     print(i)
             print('=============================================')
         elif argv[1] == 'save':
+            LocalIP = GetLocalIP()
             Text = ''
             for i in WebDNS(data,'hosts'):
                 Text += i +'\n'
@@ -171,6 +171,7 @@ if __name__ == "__main__":
                 print('error')
         # do
         elif argv[1] == 'IPs':
+            LocalIP = GetLocalIP()
             print('=============================================')
             try:
                 domain_IPs = data[argv[2]]
