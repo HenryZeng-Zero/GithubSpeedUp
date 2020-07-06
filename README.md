@@ -40,134 +40,186 @@ Help文档
 
 
 
-南京地区获取的hosts:
+# 整理
+```
+199.59.148.209 github.global.ssl.fastly.net  
+31.13.81.1 github.global.ssl.fastly.net  
+66.220.152.17 github.global.ssl.fastly.net  
+88.191.249.182 github.global.ssl.fastly.net  
+```
 
-V1:
 ```
-199.59.148.209 github.global.ssl.fastly.net
 52.74.223.119 github.com
-185.199.110.153 assets-cdn.github.com
-185.199.109.153 documentcloud.github.com
-243.185.187.39 gist.github.com
-185.199.109.154 help.github.com
-54.251.140.56 nodeload.github.com
-151.101.196.133 raw.github.com
-52.87.114.63 status.github.com
-140.82.113.17 training.github.com
-13.229.188.59 www.github.com
-151.101.40.133 avatars0.githubusercontent.com
-151.101.196.133 avatars1.githubusercontent.com
-185.199.108.154 github.githubassets.com
-52.216.207.123 github-production-release-asset-2e65be.s3.amazonaws.com
-54.169.195.247 api.github.com
-151.101.40.133 user-images.githubusercontent.com
-151.101.40.133 raw.githubusercontent.com
-151.101.196.133 gist.githubusercontent.com
-151.101.40.133 camo.githubusercontent.com
-151.101.40.133 avatars2.githubusercontent.com
-151.101.40.133 avatars3.githubusercontent.com
-151.101.196.133 avatars4.githubusercontent.com
-151.101.40.133 avatars5.githubusercontent.com
-151.101.196.133 avatars6.githubusercontent.com
-151.101.40.133 avatars8.githubusercontent.com
-185.199.108.153 github.io
-151.101.40.133 avatars7.githubusercontent.com
-```
-V2:
-```
-31.13.81.1 github.global.ssl.fastly.net
 192.30.255.112 github.com
-185.199.110.153 assets-cdn.github.com   
-185.199.109.153 documentcloud.github.com
-8.7.198.45 gist.github.com
-185.199.111.154 help.github.com
-13.229.189.0 nodeload.github.com
-151.101.196.133 raw.github.com
-52.205.36.92 status.github.com
-140.82.113.18 training.github.com
-192.30.255.112 www.github.com
-151.101.196.133 avatars0.githubusercontent.com
-151.101.196.133 avatars1.githubusercontent.com
-185.199.109.154 github.githubassets.com
-52.216.109.203 github-production-release-asset-2e65be.s3.amazonaws.com
-13.250.168.23 api.github.com
-151.101.196.133 user-images.githubusercontent.com
-151.101.40.133 raw.githubusercontent.com
-151.101.24.133 gist.githubusercontent.com
-151.101.40.133 cloud.githubusercontent.com
-151.101.40.133 camo.githubusercontent.com
-151.101.24.133 avatars2.githubusercontent.com
-151.101.40.133 avatars3.githubusercontent.com
-151.101.40.133 avatars4.githubusercontent.com
-151.101.40.133 avatars5.githubusercontent.com
-151.101.40.133 avatars6.githubusercontent.com
-151.101.196.133 avatars8.githubusercontent.com
-185.199.108.153 github.io
-151.101.40.133 avatars7.githubusercontent.com
-```
-v3:
-```
-66.220.152.17 github.global.ssl.fastly.net
 192.30.255.113 github.com
+```
+
+```
 185.199.110.153 assets-cdn.github.com
-185.199.108.153 documentcloud.github.com
-243.185.187.39 gist.github.com
-185.199.110.154 help.github.com
-13.250.162.133 nodeload.github.com
-151.101.24.133 raw.github.com
-52.205.36.92 status.github.com
-140.82.113.18 training.github.com
-192.30.255.112 www.github.com
-151.101.196.133 avatars0.githubusercontent.com
-151.101.196.133 avatars1.githubusercontent.com
-185.199.109.154 github.githubassets.com
-52.216.144.131 github-production-release-asset-2e65be.s3.amazonaws.com
-13.250.94.254 api.github.com
-151.101.24.133 user-images.githubusercontent.com
-151.101.40.133 raw.githubusercontent.com
-151.101.24.133 gist.githubusercontent.com
-151.101.40.133 cloud.githubusercontent.com
-151.101.40.133 camo.githubusercontent.com
-151.101.196.133 avatars2.githubusercontent.com
-151.101.24.133 avatars3.githubusercontent.com
-151.101.196.133 avatars4.githubusercontent.com
-151.101.196.133 avatars5.githubusercontent.com
-151.101.24.133 avatars6.githubusercontent.com
-151.101.40.133 avatars8.githubusercontent.com
-185.199.110.153 github.io
-151.101.40.133 avatars7.githubusercontent.com
-```
-v4:
-```
-88.191.249.182 github.global.ssl.fastly.net
-52.74.223.119 github.com
 185.199.109.153 assets-cdn.github.com
+185.199.108.153 assets-cdn.github.com
+```
+
+```
+185.199.109.153 documentcloud.github.com
 185.199.108.153 documentcloud.github.com
+185.199.110.153 documentcloud.github.com
+```
+
+```
+8.7.198.45 gist.github.com
+243.185.187.39 gist.github.com
 203.98.7.65 gist.github.com
+```
+
+```
+185.199.109.154 help.github.com
+185.199.110.154 help.github.com
 185.199.111.154 help.github.com
-13.229.189.0 nodeload.github.com
-151.101.196.133 raw.github.com
-54.85.97.34 status.github.com
-140.82.114.18 training.github.com
-52.74.223.119 www.github.com
-151.101.24.133 avatars0.githubusercontent.com
-151.101.40.133 avatars1.githubusercontent.com
-185.199.111.154 github.githubassets.com
-52.216.179.51 github-production-release-asset-2e65be.s3.amazonaws.com
-13.250.168.23 api.github.com
-151.101.24.133 user-images.githubusercontent.com
-151.101.24.133 raw.githubusercontent.com
-151.101.40.133 gist.githubusercontent.com
-151.101.24.133 cloud.githubusercontent.com
-151.101.40.133 camo.githubusercontent.com
-151.101.40.133 avatars2.githubusercontent.com
-151.101.40.133 avatars3.githubusercontent.com
-151.101.196.133 avatars4.githubusercontent.com
-151.101.40.133 avatars5.githubusercontent.com
-151.101.40.133 avatars6.githubusercontent.com
-151.101.40.133 avatars8.githubusercontent.com
-185.199.111.153 github.io
-151.101.196.133 avatars7.githubusercontent.com
+```
+
+```
+54.251.140.56 nodeload.github.com
+13.229.189.0 nodeload.github.com
+13.250.162.133 nodeload.github.com
+```
+
+```
+151.101.24.133 raw.github.com
+151.101.196.133 raw.github.com
+151.101.76.133 raw.github.com
+```
+
+```
+52.87.114.63 status.github.com
+54.85.97.34 status.github.com
+52.205.36.92 status.github.com
+```
+
+```
+140.82.113.17 training.github.com
+140.82.113.18 training.github.com
+```
+
+```
+13.229.188.59 www.github.com
+192.30.255.112 www.github.com
+52.74.223.119 www.github.com
+13.250.177.223 www.github.com
+```
+
+```
+151.101.40.133 avatars0.githubusercontent.com
+151.101.196.133 avatars0.githubusercontent.com
+151.101.24.133 avatars0.githubusercontent.com
+151.101.76.133 avatars0.githubusercontent.com
+```
+
+```
+151.101.196.133 avatars1.githubusercontent.com
+151.101.40.133 avatars1.githubusercontent.com
+151.101.76.133 avatars1.githubusercontent.com
+```
+
+```
+185.199.108.154 github.githubassets.com
+185.199.109.154 github.githubassets.com
+185.199.111.154 github.githubassets.com
+```
+
+```
+52.216.207.123 github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.109.203 github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.144.131 github-production-release-asset-2e65be.s3.amazonaws.com
+52.216.179.51 github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.17.252 github-production-release-asset-2e65be.s3.amazonaws.com
+```
+
+```
+54.169.195.247 api.github.com
+13.250.168.23 api.github.com
+13.250.94.254 api.github.com
+```
+
+```
+151.101.40.133 user-images.githubusercontent.com
+151.101.196.133 user-images.githubusercontent.com
+151.101.24.133 user-images.githubusercontent.com
+151.101.76.133 user-images.githubusercontent.com
+```
+
+```
+151.101.40.133 raw.githubusercontent.com
+151.101.24.133 raw.githubusercontent.com
+151.101.76.133 raw.githubusercontent.com
+```
+
+```
+151.101.196.133 gist.githubusercontent.com
+151.101.24.133 gist.githubusercontent.com
+151.101.40.133 gist.githubusercontent.com
+151.101.76.133 gist.githubusercontent.com
+```
+
+```
+
+151.101.40.133 cloud.githubusercontent.com
+151.101.24.133 cloud.githubusercontent.com
+151.101.76.133 cloud.githubusercontent.com
+```
+
+```
+151.101.40.133 camo.githubusercontent.com
+151.101.76.133 camo.githubusercontent.com
+```
+
+```
+151.101.24.133 avatars2.githubusercontent.com
+151.101.196.133 avatars2.githubusercontent.com
+151.101.40.133 avatars2.githubusercontent.com
+151.101.76.133 avatars2.githubusercontent.com
+```
+
+```
+151.101.24.133 avatars3.githubusercontent.com
+151.101.40.133 avatars3.githubusercontent.com
+151.101.76.133 avatars3.githubusercontent.com
+```
+
+```
+151.101.196.133 avatars4.githubusercontent.com
+151.101.40.133 avatars4.githubusercontent.com
+151.101.76.133 avatars4.githubusercontent.com
+```
+
+```
+151.101.196.133 avatars5.githubusercontent.com
+151.101.40.133 avatars5.githubusercontent.com
+151.101.76.133 avatars5.githubusercontent.com
+```
+
+```
+151.101.196.133 avatars6.githubusercontent.com
+151.101.40.133 avatars6.githubusercontent.com
+151.101.24.133 avatars6.githubusercontent.com
+151.101.76.133 avatars6.githubusercontent.com
+```
+
+```
+151.101.196.133 avatars7.githubusercontent.com
+151.101.76.133 avatars7.githubusercontent.com
+```
+
+```
+151.101.40.133 avatars8.githubusercontent.com
+151.101.196.133 avatars8.githubusercontent.com
+151.101.76.133 avatars8.githubusercontent.com
+```
+
+```
+185.199.108.153 github.io
+185.199.110.153 github.io
+185.199.111.153 github.io
 ```
 
 
@@ -175,3 +227,9 @@ v4:
 ```
 github.githubassets.com [负责Github网站的样式和图片资源数据，抽风会导致网页错位]
 ```
+
+# 耻辱柱
+
+> clone我的仓库可以，但是不给我联系，随意在别的平台发布还设置只读的让我很反感。（我又没办法联系这些人）
+
+1. https://gitee.com/yctxkj/GithubSpeedUp
