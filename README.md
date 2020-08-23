@@ -9,14 +9,14 @@
      + http://gitd.cc/
 + 镜像（可以clone）
      + https://github.com.cnpmjs.org/
-     + https://hub.fastgit.org/
+     + https://hub.fastgit.org/  
      ```git clone [镜像]/[用户名]/[仓库名].git```
 + 镜像（不支持clone）
      + https://github.wuyanzheshui.workers.dev
 
 + 特殊：
-     + https://www.gitclone.com/
-     我推荐第一种方法
+     + https://www.gitclone.com/  
+     我推荐第一种方法  
      ```
      方法一（替换URL）
      git clone https://gitclone.com/github.com/tendermint/tendermint.git
