@@ -2,6 +2,33 @@
 <div align=center><p style='font-size:15px'>走出心理阴影(皮)</p></div>
 
 
+## 好方法：（因为自己的项目速度提升有限，所以给出更快的方法）
+使用镜像站点clone或代理下载服务(我只是自己用的方便在这里放出来，真的没有打广告):
++ 带下
+     + https://gh.api.99988866.xyz/
+     + http://gitd.cc/
++ 镜像（可以clone）
+     + https://github.com.cnpmjs.org/
+     + https://hub.fastgit.org/
+     ```git clone [镜像]/[用户名]/[仓库名].git```
++ 镜像（不支持clone）
+     + https://github.wuyanzheshui.workers.dev
+
++ 特殊：
+     + https://www.gitclone.com/
+     我推荐第一种方法
+     ```
+     方法一（替换URL）
+     git clone https://gitclone.com/github.com/tendermint/tendermint.git
+     方法二（设置git参数）
+     git config --global url."https://gitclone.com/".insteadOf https://
+     git clone https://github.com/tendermint/tendermint.git
+     方法三（使用cgit客户端）
+     cgit clone https://github.com/tendermint/tendermint.git
+     ```
+任意一种镜像只解决下载问题，上传的话需要查看.git文件夹的config检查上传仓库的地址，同时期待自己网速够好。
+
+
 ## 原理
 
 通过向提供Web请求的DNS服务器请求针对本地最优的DNS解析数据,把输出数据存入hosts文件，提高本地访问速度
@@ -40,7 +67,11 @@ Help文档
 
 
 
+
+
 # 整理
+
+下面是hosts整理
 ```
 199.59.148.209 github.global.ssl.fastly.net  
 31.13.81.1 github.global.ssl.fastly.net  
