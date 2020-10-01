@@ -1,4 +1,4 @@
-<div align=center><h1>加速Github访问</h1></div>
+<div align=center><h1>加速GitHub访问</h1></div>
 <div align=center><p style='font-size:15px'>走出心理阴影(皮)</p></div>
 
 
