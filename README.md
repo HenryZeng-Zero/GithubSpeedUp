@@ -258,9 +258,3 @@ Help文档
 ```
 github.githubassets.com [负责Github网站的样式和图片资源数据，抽风会导致网页错位]
 ```
-
-# 耻辱柱
-
-> clone我的仓库可以，但是不给我联系，随意在别的平台发布还设置只读的让我很反感。（我又没办法联系这些人）
-
-1. https://gitee.com/yctxkj/GithubSpeedUp
