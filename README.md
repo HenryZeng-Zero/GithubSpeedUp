@@ -6,7 +6,6 @@
 使用镜像站点clone或代理下载服务(我只是自己用的方便在这里放出来，真的没有打广告):
 + 带下
      + https://gh.api.99988866.xyz/
-     + http://gitd.cc/
 + 镜像（可以clone）
      + https://github.com.cnpmjs.org/
      + https://hub.fastgit.org/  
