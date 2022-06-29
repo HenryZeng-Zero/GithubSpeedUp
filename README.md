@@ -64,7 +64,7 @@ Help文档
      方法三（使用cgit客户端）
      cgit clone https://github.com/tendermint/tendermint.git
      ```
-+ GitCode 《Github 加速计划》
++ GitCode 《Github 加速计划》 （不是普适方案，提供方只缓存了部分项目的仓库）
      + https://gitcode.net/mirrors/
      
      > 《Github 加速计划》通过 mirror 镜像仓库来同步 github 上的开源项目
